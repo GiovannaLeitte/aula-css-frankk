@@ -1,0 +1,42 @@
+.tabela-simples{
+    border: 3px solid black;
+    background: lightcoral;
+    text-align: center;
+    margin: 0 auto;
+}
+.tabela-simples td{
+    border-top: 1px solid black;
+    border-right: 1px solid white;
+    border-left: 1px solid yellow;
+    border-bottom: 1px solid lime;
+}
+.tabela-contas {
+border: 1px solid black;
+margin: 0 auto;
+width: 400px;
+}
+.tabela-contas caption{
+    font-weight: bold;
+    background: green;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.tabela-contas th, tfoot{
+    background: green;
+    color: white;
+   font-weight: bold;
+   text-align: center;
+}
+.tabela-contas td{
+    border: 1px dotted black;
+}
+.positivo::before {
+    content: "+ ";
+    color:blue
+}
+.negativo::before{
+    content: "- ";
+    color: red;
+}
